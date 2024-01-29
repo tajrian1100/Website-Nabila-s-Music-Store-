@@ -1,1 +1,2 @@
 # Website-Nabila-s-Music-Store-
+This is a website I made during my BSc coursework. This website links to selected songs, lyrics and their singer's biographies. There are 5 pages linked with each other, namely Home, About Us, and Music (which includes 3 pages containing songs). Each page contains search option with lyrics and artist name. You will be able to listen online and also can download from this site. I did not buy any domain for it yet so it is not public.
