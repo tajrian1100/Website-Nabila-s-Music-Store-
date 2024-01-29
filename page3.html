@@ -1,0 +1,89 @@
+<html>
+ <!--Nabila`s music store-->
+ <head>
+  <title>Third page of music</title>
+  <style>
+ body
+   {
+    background: url("one.png");
+    background-size: 1480px 860px;
+    background-repeat: no-repeat;
+    padding-top: 5px;
+
+   }
+   table { width:100%;}
+   table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    }
+    th, td {
+    padding: 5px;
+    text-align: left;
+    }
+    table#t01 tr:nth-child(even) {
+    background-color:FFC0CB;
+    }
+    table#t01 tr:nth-child(odd) {
+    background-color:FFC0CB;
+    }
+    table#t01 th	{
+    background-color: black;
+    color: white;
+    }
+  </style>
+ </head> 
+ <body>
+   <h1 style="text-align:center;color:Maroon;font-size:250%;font-family:courier;margin-top: 80px">Welcome to Nabila`s music store</h1>
+     <ul style="background-color: F5DEB3	"><a href="index.html">Home</a>   <a           href="about.html">About us</a>   <a                                      href="music.html">Musics</a>
+     </ul>
+
+<form action="";text-align:center>
+         Lyric word : <input type="text" name="firstname"><br><br>
+         Artist name: <input type="text" name="lastname">
+     </form>
+
+     <input type="button" id="myBtn" onclick="myFunction()" value="Search">
+
+     <p id="demo"></p>
+
+     <script>
+         function myFunction() 
+         { 
+             var x = document.getElementById("myBtn").value;
+             document.getElementById("demo").innerHTML = x;
+         }
+     </script>   
+
+  <p style="color:Maroon;font-size:100%;font-family:Courier New">
+   Here are the list of our collected music. You will be able to <I><b>listen</b></I>    online and       also can <I><b>download</b></I> from this site.
+  </p>
+<table id="t01">
+  <tr>
+    <th>Serial#</th>
+    <th>Title</th>		
+    <th>Artist</th>
+    <th>action</th>
+    </tr>
+    <tr>
+    <td>1</td>
+    <td>Sundor Suborno </td>		
+    <td><a href="http://en.wikipedia.org/wiki/Sabina_Yasmin" target="_blank">Sabina Yasmin</a></td>
+    <td><a href="http://www.4songs.pk/play/7qFuNAcSnMTA/Mohabbat+Barsa+Dena+Tu+%28+Sawan+Aaya+Hai+%29+-+Full+Song+-+Arijit+Singh+%7C%7C+Creature+3D" target="_blank">Play</a>   |   <a                     href="http://www.lyricsmint.com/2014/07/sawan-aaya-hai-creature-3d-arijit-singh.html"              target="_blank">Lyric</a></td>        
+    </tr>
+    <tr>
+    <td>2</td>
+    <td>Aj feer tumpe</td>		
+    <td><a href="http://en.wikipedia.org/wiki/Sabina_Yasmin" target="_blank">Sabina Yasmin</a></td>       
+    <td><a href="http://www.4songs.pk/play/VD9lZjQuo2AX/Aaj+Phir+Tumpe+Pyar+Aaya+Hai+%28Hate+Story+2%29-++Arijit+Singh%2C+Samira+Koppikar+-2014" target="_blank">Play</a>   |   <a                       href="http://www.lyricstaal.com/aaj-phir-tume-pe-lyrics-arijit-singh-hate-story-2-2014/"              target="_blank">Lyric</a></td>
+    </tr>
+    <tr>
+    <td>3</td>
+    <td>May tenu samzhaba ki</td>
+    <td><a href="http://en.wikipedia.org/wiki/Sabina_Yasmin" target="_blank">Sabina Yasmin</a></td>		
+    <td><a href="http://www.4songs.pk/play/HsbssMjhW2oJ/Arijit+Singh%2C+Shreya+Ghoshal+-+Main+Tenu+Samjhawan+Ki" target="_blank">Play</a>   |   <a                     href="http://www.lyricsmint.com/2014/06/samjhawan-hskd.html" target="_blank">Lyric</a></td>
+    </tr>
+</table>
+<ul style="background-color: F5DEB3"><a                                      href="page2.html"><</a>        <a href="page3.html">page3</a>
+     </ul
+ </body>
+</html>
